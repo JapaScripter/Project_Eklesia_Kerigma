@@ -957,7 +957,7 @@
       text-align: center;
       text-decoration: none;
       letter-spacing: 0.5vw;
-      color: #FFFFFF;
+      color: #011E11;
       /*display*/
       display: flex;
       margin: 0 1vw;
@@ -1013,7 +1013,7 @@
       font-size: 8px;
       text-decoration: none;
       text-align: center;
-      color: #FFFFFF;
+      color: #011E11;
       /*display*/
       display: flex;
       position: relative;
@@ -1127,7 +1127,7 @@
       font-family: DM-Sans;
       font-size: 10px;
       text-align: justify;
-      color: #FFFFFF;
+      color: #011E11;
       /*display*/
       position: relative;
       width: 45vw;
