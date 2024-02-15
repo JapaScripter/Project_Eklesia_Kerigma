@@ -80,7 +80,11 @@
   }
   .imhd {
     /*display*/
-    width: 12vw;
+    width: 2.5vw;
+  }
+  .ttnv {
+    /*font*/
+    font-size: 1.25vw;
   }
   /*|Header|*/
 
