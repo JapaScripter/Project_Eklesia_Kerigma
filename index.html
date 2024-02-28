@@ -15,148 +15,141 @@
 
     <!--|CSS Inside|-->
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js"></script>
     <!--|CSS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
   </head>
   <body>
     <section>
       <!--|Header|-->
-      <header id="header">
-        <ul class="navUlista">
-          <li><a class="navLista" href="/"><img class="imhd" src="images/logos/logo.png"></a></li><h1 class="ttnv">EKLESIA KERIGMA</h1>
+      <header id="hd">
+        <div id="lg">
+          <a class="nvlg" href="/"><img class="imlg" src="images/logos/logo.png"><h1>EKLESIA KERIGMA</h1></a>
+        </div>
+        <ul id="ls">
+          <li><a class="nvls" href="index.html"><img class="imls" src="images/home.svg">HOME</a></li>
+          <li><a class="nvls" href="sobre.html"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
+          <li><a class="nvls" href="#sec5"><img class="imls" src="images/contato.svg">CONTATO</a></li>
+          <li><a class="nvls" href="./index.html"><img class="imls" src="images/fb.svg">PT/BR</a></li>
+          <li><a class="nvls" href="./spain/index.html"><img class="imls" src="images/fe.svg">EN</a></li>
         </ul>
-        <ul class="navUlista">
-          <li><a id="botaoHome" class="navLista">HOME</a></li>
-          <li><a id="botaoSobre" class="navLista">SOBRE</a></li>
-          <li><a id="botaoContato" class="navLista">CONTATO</a></li>
+        <div id="divhd" onclick="toggleMenu()">
+          <img id="mnm" src="images/menu.svg">
+        </div>
+        <ul id="lsm">
+          <li><a class="nvls" href="./index.html" onclick="close()"><img class="imls" src="images/home.svg">HOME</a></li>
+          <li><a class="nvls" href="./sobre.html" onclick="close()"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
+          <li><a class="nvls" href="./#sec5" onclick="close()"><img class="imls" src="images/contato.svg">CONTATO</a></li>
+          <li><a class="nvls" href="./index.html" onclick="close()"><img class="imls" src="images/fb.svg">PT/BR</a></li>
+          <li><a class="nvls" href="./spain/index.html" onclick="close()"><img class="imls" src="images/fe.svg">EN</a></li>
         </ul>
       </header>
       <!--|Header|-->
 
       <!--|Main|-->
       <main>
-        <section id="heroi" class="sec1">
-          <div class="div1sec1">
-            <h1 class="txsec1">Ajudando familias e levando a salvação</h1>
-            <a class="btsec1" href="pay.html">DOAÇÕES | DONACIONES | DONATIONS</a>
-          </div>
-          <div class="div2sec1">
-            <img class="imsec1" src="images/1.jpeg">
-            <div class="blsec1"></div>
-          </div>         
+        <section id="sec1">
+            <h1 class="tt">Ajudando familias <br>e levando a salvação.<a class="lk1" href="pay.html">DOAÇÕES | DONACIONES | DONATIONS</a></h1>
+            <img class="im1" src="images/1.jpeg">
+            <div class="bl1"></div>
         </section>
-        <section id="sobre" class="sec2">
-          <div class="div1sec2">
-            <img class="imsec2" src="images/2.jpeg">
-          </div>
-          <div class="div2sec2">
-            <h1 class="ttsec2">O sonho de Deus!</h1>
-            <p class="txsec2">Adalto da Silva Almeida, convertido à fé aos 22 anos, uniu-se em matrimônio aos 24 anos com Daiene de P. B. de Almeida. Aos 26 anos, teve a oportunidade de realizar estudos teológicos em tempo integral na Faculdade Teológico Sul Brasileiro, hoje conhecida como SETESB Seminário Teológico Sul Brasileiro, situado em Vargem Grande Paulista, São Paulo. Concluiu sua formação com distinção, obtendo o título de Bacharel em Teologia, seguido pela convalidação do curso pela prestigiada Faculdade de Teologia Integrada FATIM. Além disso, aprofundou seus conhecimentos ao cursar pós-graduação em mis... <a class="lksec2" href="">Leia Mais</a></p>
+        <section id="sec2">
+          <img class="im2" src="images/2.jpeg">
+          <div class="bl2"></div>
+          <div class="dv1">
+            <h1 class="tt">O Sonho de Deus!</h1>
+            <p class="tx">Adalto da Silva Almeida, convertido à fé aos 22 anos, uniu-se em matrimônio aos 24 anos com Daiene de P. B. de Almeida. Aos 26 anos, teve a oportunidade de realizar estudos teológicos em tempo integral na Faculdade Teológico Sul Brasileiro, hoje conhecida como SETESB Seminário Teológico Sul Brasileiro, situado em Vargem Grande Paulista, São Paulo. Concluiu sua formação com distinção, obtendo o título de Bacharel em Teologia, seguido pela convalidação do curso pela prestigiada Faculdade de Teologia Integrada FATIM. Além disso, aprofundou seus conhecimentos ao cursar pós-graduação em mis... <a class="lk2" href="sobre.html">Leia Mais</a></p>
           </div>
         </section>
-        <section class="sec3">
-          <div class="div1sec3">
-            <h1 class="ttsec3">Propósito de Deus</h1>
+        <section id="sec3">
+          <h1 class="tt">Propósito de Deus</h1>
+          <div class="dv2">
+            <div class="dv3">
+              <img class="im3" src="images/11.jpeg">
+              <div class="dv3m">
+                <h4 class="tt1">Valores</h4>
+                <p class="tx">Guiados pelos valores bíblicos, buscamos viver com justiça e verdade, obedecendo aos ...<br></p>
+              </div>
+            </div>
+            <div class="dv3">
+              <img class="im3" src="images/7.jpeg">
+              <div class="dv3m">
+                <h4 class="tt1">Missão</h4>
+                <p class="tx">Evangelizar, Ganhar, Consolidar, Discipular e enviar ...<br></p>
+              </div>
+            </div>
+            <div class="dv3">
+              <img class="im3" src="images/5.jpeg">
+              <div class="dv3m">
+                <h4 class="tt1">Visão</h4>
+                <p class="tx">Que todos conheçam a Jesus Cristo. Nosso proposito, é guiar as pessoas a ...<br></p>
+              </div>
+            </div>
           </div>
-          <div class="div2sec3">
-            <div class="div1div2sec3">
-              <img class="im1sec3" src="images/21.jpeg">
-              <h4 class="tt1sec3">Valores</h4>
-              <p class="tx1sec3">Guiados pelos valores bíblicos, buscamos viver com justiça e verdade, obedecendo aos ...<br><a class="lk1sec3">Leia Mais</a></p>
-            </div>
-            <div class="div2div2sec3">
-              <img class="im2sec3" src="images/13.jpeg">
-              <h4 class="tt2sec3">Missão</h4>
-              <p class="tx2sec3">Evangelizar, Ganhar, Consolidar, Discipular e enviar ...<br><a class="lk2sec3">Leia Mais</a></p>
-            </div>
-            <div class="div3div2sec3">
-              <img class="im3sec3" src="images/11.jpeg">
-              <h4 class="tt3sec3">Visão</h4>
-              <p class="tx3sec3">Que todos conheçam a Jesus Cristo. Nossa proposito, é guiar as pessoas a ...<br><a class="lk3sec3">Leia Mais</a></p>
-            </div>
-          </div>
-        </section>
-        <section class="sec4">
           <div>
-            <h1 class="tt1sec4">Comentários</h1>
-          </div>
-          <div class="div2sec4">
-            <div class="div2div1sec4">
-              <div class="div10">
-                <div class="div11">
-                  <img class="im1sec4" src="icons/user-bold.svg">
-                  <h4 class="tt2sec4">Lucas da Silva</h4>
-                </div>
-                <div>
-                  <p class="tx1sec4">Participei de um trabalho missionário com o pastor Adalto no Paraguai e foi uma das melhores experiências que já tive. Ele é um pastor muito compromissado e resiliente só pela sua tragetória de vida você vÊ isso nele.</p>
-                </div>
-              </div>
-              <div class="div13">
-                <div class="div14">
-                  <img class="im2sec4" src="icons/user-bold.svg">
-                  <h4 class="tt3sec4">Daniel Ebginer</h4>
-                </div>
-                <div>
-                  <p class="tx2sec4">Fui já pela segunda vez ao Paraguai ver os projetos do pastor e ele é um homem muito direito.</p>
-                </div>
-              </div>
-              <div class="div16">
-                <div class="div17">
-                  <img class="im3sec4" src="icons/user-bold.svg">
-                  <h4 class="tt4sec4">Harley Silva</h4>
-                </div>
-                <div>
-                  <p class="tx3sec4">O pastor Adalto e a pastora Dayane são uma benção.</p>
-                </div>
-              </div>
-            </div>
-            <div class="div2div2sec4">
-              <div>
-                <img class="im4sec4" src="images/3.jpeg">
-              </div>
-              <div>
-                <img class="im5sec4" src="images/4.jpeg">
-              </div>
-              <div>
-                <img class="im6sec4" src="images/12.jpeg">
-              </div>
-              <div>
-                <img class="im7sec4" src="images/16.jpeg">
-              </div>
-              <div>
-                <img class="im8sec4" src="images/15.jpeg">
-              </div>
-            </div> 
+            <a class="lk3" href="proposito.html">Leia Mais</a>
           </div>
         </section>
-        <section id="contato" class="sec5">
-          <div class="div1sec5">
-            <h1 class="tt1sec5">Fale Conosco</h1>
-            <h4 class="tt2sec5">Tire suas dúvidas</h4>
-            <a class="btsec5" href="pay.html">DOAÇÕES | DONACIONES | DONATIONS</a>
-            <h4 class="tt3sec5">Telefone/Whatsapp</h4>
-            <p class="tx1sec5"><a class="lk1sec5" href="tel:+553399811652">+55 (33) 9981-1652</a></p>
-            <h4 class="tt4sec5">E-mail</h4>
-            <p class="tx2sec5"><a class="lk2sec5" href="mailto:eklesiakerigma@hotmail.com">eklesiakerigma@hotmail.com</a></p>
-            <h4 class="tt5sec5">Social</h4>
-            <p class="iconssec5">
-              <a href="https://www.facebook.com/people/Adalto-De-Almeida/pfbid0otpMfRHrZUSEdkSDYuwHYAyhuHAoAXTKQSYQy6RqwvSb2MKDv8t8GGLat32Jjgt8l/" target="_blank"><img class="icon1sec5" src="icons/facebook.svg"></a>
-              <a href="https://www.tiktok.com/@pr.adalto?_t=8hovLNYRjoD&_r=1" target="_blank"><img class="icon2sec5" src="icons/tiktok.svg"></a>
-              <a href="https://instagram.com/pr.adalto?utm_source=qr&igshid=OGUzMzk1ZmEzMg==" target="_blank"><img class="icon3sec5" src="icons/instagram.svg"></a>
-            </p>
+        <section id="sec4">
+          <h1 class="tt">Comentários</h1>
+          <div class="dv4">
+            <div class="dv5">
+              <div class="dv6">
+                <h4 class="tt2"><img class="im4" src="images/user-bold.svg">Lucas da Silva</h4>
+                <p class="tx">Participei de um trabalho missionário com o pastor Adalto no Paraguai e foi uma das melhores experiências que já tive. Ele é um pastor muito compromissado e resiliente só pela sua tragetória de vida você vê isso nele.</p>
+              </div>
+              <div class="dv6">
+                <h4 class="tt2"><img class="im4" src="images/user-bold.svg">Daniel Ebginer</h4>
+                <p class="tx">Fui já pela segunda vez ao Paraguai ver os projetos do pastor e ele é um homem muito direito.</p>
+              </div>
+              <div class="dv6">
+                <h4 class="tt2"><img class="im4" src="images/user-bold.svg">Harley Silva</h4>
+                <p class="tx">O pastor Adalto e a pastora Dayane são uma benção.</p>
+              </div>
+            </div>
+            <div class="dv7">
+              <img class="im5" src="images/3.jpeg">
+              <img class="im6" src="images/4.jpeg">
+              <img class="im8" src="images/9.jpeg">
+              <img class="im9" src="images/8.jpeg">
+              <img class="im7" src="images/6.jpeg">
+            </div>
           </div>
-          <div class="div2sec5">
-            <img class="imsec5" src="images/20.jpeg">
-            <div class="blsec5"></div>
+        </section>
+        <section id="sec5">
+          <img class="im10" src="images/10.jpeg">
+          <div class="bl3"></div>
+          <div class="dv8">
+            <h1 class="tt">Fale Conosco</h1>
+            <a class="lk1" href="pay.html">DOAÇÕES | DONACIONES | DONATIONS</a>
+            <h4 class="tt3">Telefone/Whatsapp</h4>
+            <p><a class="tx1" href="https://api.whatsapp.com/send?phone=553399811652" target="_blank">+55 (33) 9981-1652</a></p>
+            <h4 class="tt3">E-mail</h4>
+            <p><a class="tx1" href="mailto:eklesiakerigma@hotmail.com">eklesiakerigma@hotmail.com</a></p>
+            <h4 class="tt3">Social</h4>
+            <div class="dv9">
+              <a class="lk4" href="https://www.facebook.com/people/Adalto-De-Almeida/pfbid0otpMfRHrZUSEdkSDYuwHYAyhuHAoAXTKQSYQy6RqwvSb2MKDv8t8GGLat32Jjgt8l/" target="_blank"><img class="im11" src="images/facebook.svg">Facebook</a>
+              <a class="lk4" href="https://www.tiktok.com/@pr.adalto?_t=8hovLNYRjoD&_r=1" target="_blank"><img class="im11" src="images/tiktok.svg">Tiktok</a>
+              <a class="lk4" href="https://instagram.com/pr.adalto?utm_source=qr&igshid=OGUzMzk1ZmEzMg==" target="_blank"><img class="im11" src="images/instagram.svg">Instagram</a>
+            </p>
           </div>
         </section>  
       </main>
       <!--|Main|-->
 
       <!--|Footer|-->
-      <footer id="footer">
-        <p class="txfooter">Todos os direitos reservados Eklesia Kerigma e Unilatem &copy; <strong id="anoatual"><script>document.getElementById('anoatual').innerHTML = new Date().getFullYear();</script></strong>.</p>
-      </footer>
+      <footer></footer>
       <!--|Footer|-->
     </section>
   </body>
