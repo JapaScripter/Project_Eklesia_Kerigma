@@ -13,10 +13,12 @@
     <title>Eklesia Kerigma | Doações</title>
     <!--|Title Tab|-->
 
-    <!--|CSS Inside|-->
+    <!--|CSS e JS Inside|-->
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <!--|CSS Inside|-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!--|CSS e JS Inside|-->
 
     <!--|Script Header and Footer Import|-->
 		<script>
@@ -36,6 +38,14 @@
         });
     </script>
     <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
   </head>
   <body>
     <section>
@@ -46,8 +56,8 @@
       <!--|Main|-->
       <main>
         <section id="sec8">
-          <h1 class="tt">Doações | Donaciones | Donations</h1>
-          <div class="dv13">
+          <h1 class="tt" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out">Doações | Donaciones | Donations</h1>
+          <div class="dv13" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out">
             <div class="dv14">
               <h3 class="tt4">PIX no QRCode</h3>
               <ul>
