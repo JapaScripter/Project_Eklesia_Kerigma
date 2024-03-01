@@ -20,6 +20,13 @@
 
     <!--|Script Header and Footer Import|-->
 		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
       fetch("footer.html")
         .then(response => {
           return response.text()
@@ -33,28 +40,7 @@
   <body>
     <section>
       <!--|Header|-->
-      <header id="hd">
-        <div id="lg">
-          <a class="nvlg" href="/"><img class="imlg" src="images/logos/logo.png"><h1>EKLESIA KERIGMA</h1></a>
-        </div>
-        <ul id="ls">
-          <li><a class="nvls" href="index.html"><img class="imls" src="images/home.svg">HOME</a></li>
-          <li><a class="nvls" href="sobre.html"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
-          <li><a class="nvls" href="#sec5"><img class="imls" src="images/contato.svg">CONTATO</a></li>
-          <li><a class="nvls" href="./index.html"><img class="imls" src="images/fb.svg">PT/BR</a></li>
-          <li><a class="nvls" href="./spain/index.html"><img class="imls" src="images/fe.svg">EN</a></li>
-        </ul>
-        <div id="divhd" onclick="toggleMenu()">
-          <img id="mnm" src="images/menu.svg">
-        </div>
-        <ul id="lsm">
-          <li><a class="nvls" href="./index.html" onclick="close()"><img class="imls" src="images/home.svg">HOME</a></li>
-          <li><a class="nvls" href="./sobre.html" onclick="close()"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
-          <li><a class="nvls" href="./#sec5" onclick="close()"><img class="imls" src="images/contato.svg">CONTATO</a></li>
-          <li><a class="nvls" href="./index.html" onclick="close()"><img class="imls" src="images/fb.svg">PT/BR</a></li>
-          <li><a class="nvls" href="./spain/index.html" onclick="close()"><img class="imls" src="images/fe.svg">EN</a></li>
-        </ul>
-      </header>
+      <header></header>
       <!--|Header|-->
 
       <!--|Main|-->
