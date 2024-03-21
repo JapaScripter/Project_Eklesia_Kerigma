@@ -29,6 +29,7 @@ botaoContato.addEventListener('click', function() {
 });
 /*--|Header Scroll Button|--*/
 
+/*--|Mobile Menu|--*/
 function toggleMenu(){
   var menuList = document.getElementById('lsm');
   if (menuList.style.display ==='none' || menuList.style.display ===''){
