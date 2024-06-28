@@ -1,11 +1,11 @@
 /*--|BASE CONFIGURATIONS|--*/
 @font-face{
 font-family:'DM-Sans';
-src:url('../font/DMSans-Regular.ttf')format('truetype');
+src:url('font/DMSans-Regular.ttf')format('truetype');
 }
 @font-face{
 font-family:'Neue-Machina';
-src:url('../font/NeueMachina-Ultrabold.ttf')format('truetype');
+src:url('font/NeueMachina-Ultrabold.ttf')format('truetype');
 }
 *{
 /*font*/
@@ -165,13 +165,6 @@ justify-content:center;
 align-items:center;
 background:#32D555;
 }
-.lka{
-text-decoration: none;
-color:#011E11;
-}
-.lka:hover{
-color:#ffffff;
-}
 @media screen and (max-width:768px){
 #ft{
 /*display*/
@@ -181,9 +174,6 @@ height:15vw;
 /*font*/
 font-size:4vw;
 text-align:center;
-}
-.lka{
-font-size:4vw;
 }
 }
 /*--|FOOTER CONFIGURATIONS|--*/
@@ -475,7 +465,7 @@ height:26vw;
 width:21.75vw;
 height:20vw;
 }
-#contacto{
+#sec5{
 /*display*/
 display:flex;
 width:100%;
@@ -736,7 +726,7 @@ height:36vw;
 width:34.75vw;
 height:34vw;
 }
-#contacto{
+#sec5{
 /*display*/
 height:200vw;
 flex-direction:column;
@@ -815,7 +805,7 @@ align-items:center;
 @media screen and (max-width:768px){
 #sec6{
 /*display*/
-height:290vw;
+height:320vw;
 padding-top:10vw;
 }
 .dv10{

@@ -165,13 +165,6 @@ justify-content:center;
 align-items:center;
 background:#32D555;
 }
-.lka{
-text-decoration: none;
-color:#011E11;
-}
-.lka:hover{
-color:#ffffff;
-}
 @media screen and (max-width:768px){
 #ft{
 /*display*/
@@ -181,9 +174,6 @@ height:15vw;
 /*font*/
 font-size:4vw;
 text-align:center;
-}
-.lka{
-font-size:4vw;
 }
 }
 /*--|FOOTER CONFIGURATIONS|--*/
@@ -475,7 +465,7 @@ height:26vw;
 width:21.75vw;
 height:20vw;
 }
-#contato{
+#sec5{
 /*display*/
 display:flex;
 width:100%;

@@ -1,1 +1,102 @@
-<!DOCTYPE html><html><head><meta name="viewport" charset="utf-8" content="width=device-widthinitial-scale=1"><meta name="keywords" content="HTML,CSS,XML,JavaScript"><meta name="description" content="Eklesia Kerigma"><meta name="author" content="Unilatem"><link rel="shortcut icon" href="../images/logos/favicon.ico"><title>Eklesia Kerigma | Donaciones</title><link rel="stylesheet" href="style_min.css"><script rel="text/javascript" src="../script_min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet"><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script><script>fetch("header.html").then((e=>e.text())).then((e=>{document.querySelector("header").innerHTML=e})),fetch("footer.html").then((e=>e.text())).then((e=>{document.querySelector("footer").innerHTML=e}));</script><script>document.addEventListener("DOMContentLoaded",function(){AOS.init()})</script></head><body><section><header></header><main><section id="sec8"><h1 class="tt" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out">Doações | Donaciones | Donations</h1><div class="dv13" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out"><div class="dv14"><h3 class="tt4">PIX en código QR Banco do Brasil</h3><ul><li class="tx3">Banco do Brasil</li><li class="tx3">Agência:0607-6</li><li class="tx3">Conta:26.718-X ou 0</li><li class="tx3">Nome:Adalto da Silva Almeida</li></ul><img class="im12" src="../images/qrcode.webp"></div><div class="dv14"><h3 class="tt4">PIX en el código QR del Banco Caixa</h3><ul><li class="tx3">Banco Caixa Econômica Federal</li><li class="tx3">Agência:0706</li><li class="tx3">Operação:013</li><li class="tx3">Conta:00023114-2</li><li class="tx3">Nome:Adalto da Silva Almeida</li></ul><img class="im12" src="../images/qrcodecaixa.webp"></div><div class="dv14"><h3 class="tt4">PIX Código</h3><p class="tx">adaltodealmeida4@hotmail.com</p></div></div></section></main><footer></footer></section></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--|Meta Config.|-->
+    <meta name="viewport" charset="utf-8" content="width=device-width initial-scale= 1.0">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="description" content="Eklesia Kerigma">
+    <meta name="author" content="Unilatem">
+    <link rel="shortcut icon" href="../images/logos/favicon.ico">
+    <!--|Meta Config.|-->
+
+    <!--|Title Tab|-->
+    <title>Eklesia Kerigma | Donaciones</title>
+    <!--|Title Tab|-->
+
+    <!--|CSS e JS Inside|-->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!--|CSS e JS Inside|-->
+
+    <!--|Script Header and Footer Import|-->
+		<script>
+      fetch("header.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("header").innerHTML = data;
+        });
+      fetch("footer.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("footer").innerHTML = data;
+        });
+    </script>
+    <!--|Script Header and Footer Import|-->
+
+    <!--|Animation|-->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init();
+    });
+    </script>
+    <!--|Animation|-->
+  </head>
+  <body>
+    <section>
+      <!--|Header|-->
+      <header></header>
+      <!--|Header|-->
+
+      <!--|Main|-->
+      <main>
+        <section id="sec8">
+          <h1 class="tt" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out">Doações | Donaciones | Donations</h1>
+          <div class="dv13" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div class="dv14">
+              <h3 class="tt4">PIX en código QR Banco do Brasil</h3>
+              <ul>
+                <li class="tx3">Banco do Brasil</li>
+                <li class="tx3">Agência:0607-6</li>
+                <li class="tx3">Conta:26.718-X ou 0</li>
+                <li class="tx3">Nome:Adalto da Silva Almeida</li>
+              </ul>
+              <img class="im12" src="../images/qrcode.webp">
+            </div>
+            <div class="dv14">
+              <h3 class="tt4">PIX en el código QR del Banco Caixa</h3>
+              <ul>
+                <li class="tx3">Banco Caixa Econômica Federal</li>
+                <li class="tx3">Agência:0706</li>
+                <li class="tx3">Operação:013</li>
+                <li class="tx3">Conta:00023114-2</li>
+                <li class="tx3">Nome:Adalto da Silva Almeida</li>
+              </ul>
+              <img class="im12" src="../images/qrcodecaixa.webp">
+            </div>
+            <div class="dv14">
+              <h3 class="tt4">PIX Código</h3>
+              <p class="tx">adaltodealmeida4@hotmail.com</p>
+            </div>
+          <!--
+            <div>
+              <h3>Cartão</h3>
+              <p>Serviço Inativo</p>
+            </div>
+          -->
+          </div>
+        </section>
+      </main>
+      <!--|Main|-->
+
+      <!--|Footer|-->
+      <footer></footer>
+      <!--|Footer|-->
+    </section>
+  </body>
+</html>

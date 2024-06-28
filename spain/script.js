@@ -27,7 +27,7 @@ botaoContato.addEventListener('click', function() {
     contato.scrollIntoView({ behavior: 'smooth' }); 
   }, 100);
 });
-/*--|Header Scroll Button|--*/
+/*|Header Scroll Button|*/
 
 /*--|Mobile Menu|--*/
 function toggleMenu(){
