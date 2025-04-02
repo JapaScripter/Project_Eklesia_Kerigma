@@ -1,31 +1,34 @@
-<!--|CSS Inside|-->
-<link rel="stylesheet" href="style.css">
-<!--|CSS Inside|-->
+<!--|Import|-->
+<link href="assets/css/style.css" rel="stylesheet">
+<!--|Import|-->
 
-<!--|Header|-->
 <header id="hd">
-  <div id="lg">
-    <a class="nvlg" href="/"><img class="imlg" src="images/logos/logo.png"><h1>EKLESIA KERIGMA</h1></a>
-  </div>
-  <ul id="ls">
-    <li><a class="nvls" href="index.html"><img class="imls" src="images/home.svg">HOME</a></li>
-    <li><a class="nvls" href="sobre.html"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
-    <li><a class="nvls" href="index.html#sec5"><img class="imls" src="images/contato.svg">CONTATO</a></li>
-    <li><a class="nvls" href="./index.html"><img class="imls" src="images/fb.svg">PT/BR</a></li>
-    <li><a class="nvls" href="./spain/index.html"><img class="imls" src="images/fe.svg">ES</a></li>
-  </ul>
-  <div id="divhd" onclick="toggleMenu()">
-    <img id="mnm" src="images/menumobile.svg">
-  </div>
-  <ul id="lsm">
-    <div class="divclose">
-      <img id="mnm" src="images/close.svg" onclick="toggleoffMenu()">
-    </div>
-    <li><a class="nvls" href="./index.html" onclick="toggleoffMenu()"><img class="imls" src="images/home.svg">HOME</a></li>
-    <li><a class="nvls" href="./sobre.html" onclick="toggleoffMenu()"><img class="imls" src="images/sobre.svg">SOBRE NÓS</a></li>
-    <li><a class="nvls" href="./#sec5" onclick="toggleoffMenu()"><img class="imls" src="images/contato.svg">CONTATO</a></li>
-    <li><a class="nvls" href="./index.html" onclick="toggleoffMenu()"><img class="imls" src="images/fb.svg">PT/BR</a></li>
-    <li><a class="nvls" href="./spain/index.html" onclick="toggleoffMenu()"><img class="imls" src="images/fe.svg">ES</a></li>
-  </ul>
+	<div id="lg_dv"><a href="/"><img class="lg" src="assets/images/logos/logo.png"></a>EKLESIA KERIGMA</div>
+	<ul id="ls">
+		<li><a class="ls_nv" href="/"><img class="ls_im" src="assets/images/botoes/home.svg">HOME</a></li>
+		<li><a class="ls_nv" href="sobre.html"><img class="ls_im" src="assets/images/botoes/sobre.svg">SOBRE NÓS</a></li>
+		<li><a class="ls_nv" href="contato.html"><img class="ls_im" src="assets/images/botoes/contato.svg">CONTATO</a></li>
+		<li><a class="ls_nv" href="pay.html"><img class="ls_im" src="assets/images/botoes/doar.svg">DOE AGORA</a></li>
+		<li class="ls_la"><img class="ls_im" src="assets/images/botoes/language.svg">LINGUAGEM
+			<ul class="ls_ls">
+				<li><a class="ls_nv" href="/"><img class="ls_im" src="assets/images/botoes/br.svg">PT/BR</a></li>
+				<li><a class="ls_nv" href="EN/en.html"><img class="ls_im" src="assets/images/botoes/en.svg">EN</a></li>
+				<li><a class="ls_nv" href="ES/es.html"><img class="ls_im" src="assets/images/botoes/es.svg">ES</a></li>
+			</ul>
+		</li>
+	</ul>
+	<div id="mn_dv" onclick="toggleMenu()"><img id="mn" src="assets/images/botoes/menu.svg"></div>
+	<ul id="lsm">
+		<li class="ls_li"><a class="ls_nv" href="/">HOME<img class="ls_im" src="assets/images/botoes/home.svg"></a></li>
+		<li class="ls_li"><a class="ls_nv" href="sobre.html">SOBRE NÓS<img class="ls_im" src="assets/images/botoes/sobre.svg"></a></li>
+		<li class="ls_li"><a class="ls_nv" href="contato.html">CONTATO<img class="ls_im" src="assets/images/botoes/contato.svg"></a></li>
+		<li class="ls_li"><a class="ls_nv" href="pay.html">DOE AGORA<img class="ls_im" src="assets/images/botoes/doar.svg"></a></li>
+		<li class="ls_la">LINGUAGEM<img class="ls_im" src="assets/images/botoes/language.svg">
+			<ul class="ls_ls">
+				<li class="ls_ls_li"><a class="ls_nv" href="/">PT/BR<img class="ls_im" src="assets/images/botoes/br.svg"></a></li>
+				<li class="ls_ls_li"><a class="ls_nv" href="EN/en.html">EN<img class="ls_im" src="assets/images/botoes/en.svg"></a></li>
+				<li class="ls_ls_li"><a class="ls_nv" href="ES/es.html">ES<img class="ls_im" src="assets/images/botoes/es.svg"></a></li>
+			</ul>
+		</li>
+	</ul>
 </header>
-<!--|Header|-->
