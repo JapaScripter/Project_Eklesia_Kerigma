@@ -16,7 +16,7 @@
 		<script rel="text/javascript" src="assets/js/script.js"></script>
 		<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 		<script rel="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script>document.addEventListener("DOMContentLoaded", function () { AOS.init(); /*Inicializa o AOS quando o DOM estiver completamente carregado se não estiver funcionando só o aos use o DOM*/ });</script>
+		<script>document.addEventListener("DOMContentLoaded", function () { AOS.init();});</script>
 		<script>fetch("header.html").then((e => e.text())).then((e => { document.querySelector("header").innerHTML = e })), fetch("footer.html").then((e => e.text())).then((e => { document.querySelector("footer").innerHTML = e }));</script>
 		<!--|Import|-->
 	</head>
@@ -150,7 +150,6 @@
 				</div>
 				<div class="loading_wd"></div>
 				<div class="loading_wd"></div>
-				<!-- Bolinhas girando embaixo -->
 				<div class="dots">
 					<div class="dots_dt">.</div>
 					<div class="dots_dt">.</div>
