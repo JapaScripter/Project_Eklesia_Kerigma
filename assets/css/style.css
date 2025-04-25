@@ -653,6 +653,12 @@
 	align-items: center;
 }
 
+.sd_tt {
+	font-size: 2vw;
+	text-align: center;
+	color: #F0F0F0;
+}
+
 #py_sc {
 	display: flex;
 	width: 100%;
