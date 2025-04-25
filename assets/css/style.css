@@ -1047,6 +1047,14 @@
 		justify-content: space-evenly;
 	}
 
+	.pr_ft_tt {
+		font-size: 8vw;
+	}
+
+	.sd_tt {
+		font-size: 6vw;
+	}
+
 	.sd_sd_tt {
 		font-size: 6vw;
 		display: flex;
