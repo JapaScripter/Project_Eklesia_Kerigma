@@ -132,10 +132,10 @@ function toggleMenu() {
 
 	// Verifica o estado atual do menu e altera os ícones
 	if (menuIcon.src.includes('menu.svg')) {
-		menuIcon.src = '../assets/images/botoes/close.svg'; // Muda para o ícone de "X"
+		menuIcon.src = '/assets/images/botoes/close.svg'; // Muda para o ícone de "X"
 		menuList.style.display = 'flex'; // Exibe o menu lateral
 	} else {
-		menuIcon.src = '../assets/images/botoes/menu.svg'; // Muda de volta para o ícone de menu
+		menuIcon.src = '/assets/images/botoes/menu.svg'; // Muda de volta para o ícone de menu
 		menuList.style.display = 'none'; // Esconde o menu lateral
 	}
 }

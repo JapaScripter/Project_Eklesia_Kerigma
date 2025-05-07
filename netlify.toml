@@ -1,0 +1,104 @@
+[build]
+  publish = "pages" # Isso indica que a raiz do projeto é a pasta de publicação
+
+[[redirects]]
+  from = "/termos"
+  to = "/termos.html"
+  status = 200
+
+[[redirects]]
+  from = "/sobre"
+  to = "/sobre.html"
+  status = 200
+
+  [[redirects]]
+  from = "/proposito"
+  to = "/proposito.html"
+  status = 200
+
+  [[redirects]]
+  from = "/politica"
+  to = "/politica.html"
+  status = 200
+
+  [[redirects]]
+  from = "/pay"
+  to = "/pay.html"
+  status = 200
+
+[[redirects]]
+  from = "/contato"
+  to = "/contato.html"
+  status = 200
+
+# Rotas inglês
+[[redirects]]
+  from = "/en/termos"
+  to = "/en/termos.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/proposito"
+  to = "/en/proposito.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/politica"
+  to = "/en/politica.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/pay"
+  to = "/en/pay.html"
+  status = 200
+
+[[redirects]]
+  from = "/en"
+  to = "/en/en.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/contact"
+  to = "/en/contact.html"
+  status = 200
+
+[[redirects]]
+  from = "/en/about"
+  to = "/en/about.html"
+  status = 200
+
+# Rotas espanhol
+[[redirects]]
+  from = "/es/termos"
+  to = "/es/termos.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/sobre"
+  to = "/es/sobre.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/proposito"
+  to = "/es/proposito.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/politica"
+  to = "/es/politica.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/pay"
+  to = "/es/pay.html"
+  status = 200
+
+[[redirects]]
+  from = "/es"
+  to = "/es/es.html"
+  status = 200
+
+[[redirects]]
+  from = "/es/contato"
+  to = "/es/contato.html"
+  status = 200
