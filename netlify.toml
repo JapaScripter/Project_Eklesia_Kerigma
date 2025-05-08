@@ -5,100 +5,120 @@
   from = "/termos"
   to = "/termos.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/sobre"
   to = "/pages/sobre.html"
   status = 200
+  force = true
 
   [[redirects]]
   from = "/proposito"
   to = "/pages/proposito.html"
   status = 200
+  force = true
 
   [[redirects]]
   from = "/politica"
   to = "/pages/politica.html"
   status = 200
+  force = true
 
   [[redirects]]
   from = "/pay"
   to = "/pages/pay.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/contato"
   to = "/pages/contato.html"
   status = 200
+  force = true
 
 # Rotas inglês
 [[redirects]]
   from = "/en/termos"
   to = "/pages/en/termos.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en/proposito"
   to = "/pages/en/proposito.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en/politica"
   to = "/pages/en/politica.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en/pay"
   to = "/pages/en/pay.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en"
   to = "/pages/en/en.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en/contact"
   to = "/pages/en/contact.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/en/about"
   to = "/pages/en/about.html"
   status = 200
+  force = true
 
 # Rotas espanhol
 [[redirects]]
   from = "/es/termos"
   to = "/pages/es/termos.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es/sobre"
   to = "/pages/es/sobre.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es/proposito"
   to = "/pages/es/proposito.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es/politica"
   to = "/pages/es/politica.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es/pay"
   to = "/pages/es/pay.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es"
   to = "/pages/es/es.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/es/contato"
   to = "/pages/es/contato.html"
   status = 200
+  force = true
