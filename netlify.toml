@@ -6,3 +6,9 @@
   to = "/:splat"
   status = 301
   force = true
+
+  [[redirects]]
+  from = "/pages/:splat"
+  to = "/pages/:splat.html"
+  status = 200
+  force = true
