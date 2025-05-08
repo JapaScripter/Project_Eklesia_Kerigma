@@ -1,5 +1,5 @@
 [build]
-  publish = "." # Isso indica que a raiz do projeto é a pasta de publicação
+  publish = "."
 
 [[redirects]]
   from = "/termos"
@@ -9,116 +9,116 @@
 
 [[redirects]]
   from = "/sobre"
-  to = "/pages/sobre.html"
+  to = "/sobre.html"
   status = 200
   force = true
 
   [[redirects]]
   from = "/proposito"
-  to = "/pages/proposito.html"
+  to = "/proposito.html"
   status = 200
   force = true
 
   [[redirects]]
   from = "/politica"
-  to = "/pages/politica.html"
+  to = "/politica.html"
   status = 200
   force = true
 
   [[redirects]]
   from = "/pay"
-  to = "/pages/pay.html"
+  to = "/pay.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/contato"
-  to = "/pages/contato.html"
+  to = "/contato.html"
   status = 200
   force = true
 
 # Rotas inglês
 [[redirects]]
   from = "/en/termos"
-  to = "/pages/en/termos.html"
+  to = "/en/termos.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/proposito"
-  to = "/pages/en/proposito.html"
+  to = "/en/proposito.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/politica"
-  to = "/pages/en/politica.html"
+  to = "/en/politica.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/pay"
-  to = "/pages/en/pay.html"
+  to = "/en/pay.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en"
-  to = "/pages/en/en.html"
+  to = "/en/en.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/contact"
-  to = "/pages/en/contact.html"
+  to = "/en/contact.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/en/about"
-  to = "/pages/en/about.html"
+  to = "/en/about.html"
   status = 200
   force = true
 
 # Rotas espanhol
 [[redirects]]
   from = "/es/termos"
-  to = "/pages/es/termos.html"
+  to = "/es/termos.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es/sobre"
-  to = "/pages/es/sobre.html"
+  to = "/es/sobre.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es/proposito"
-  to = "/pages/es/proposito.html"
+  to = "/es/proposito.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es/politica"
-  to = "/pages/es/politica.html"
+  to = "/es/politica.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es/pay"
-  to = "/pages/es/pay.html"
+  to = "/es/pay.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es"
-  to = "/pages/es/es.html"
+  to = "/es/es.html"
   status = 200
   force = true
 
 [[redirects]]
   from = "/es/contato"
-  to = "/pages/es/contato.html"
+  to = "/es/contato.html"
   status = 200
   force = true
