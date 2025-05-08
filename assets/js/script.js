@@ -1,3 +1,9 @@
+
+// if (window.location.pathname.endsWith(".html")) {
+// 	window.location.href = window.location.pathname.replace(".html", "");
+// 	window.history.replaceState({}, document.title, cleanPath + window.location.search + window.location.hash);
+// }
+
 window.addEventListener('load', function () { // Esperar a página carregar completamente
 	// Esmaecer a tela de carregamento assim que a página carregar
 	document.querySelector('.loading').style.opacity = 0; // Esmaecer imediatamente

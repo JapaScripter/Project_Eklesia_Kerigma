@@ -1,7 +1,9 @@
 RewriteEngine On
 
+# Redireciona URLs com.html para a versão sem.html
 RewriteCond % { THE_REQUEST } \s / +(.+) \.html[NC]
 RewriteRule ^ % 1[R = 301, L]
 
+# Permite acessar URLs sem a extensão.html
 RewriteCond % { REQUEST_FILENAME }.html - f
 RewriteRule ^ ([^\.] +)$ $1.html[L]
