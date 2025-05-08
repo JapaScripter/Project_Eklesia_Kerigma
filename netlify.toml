@@ -9,12 +9,12 @@
 
   [[redirects]]
   from = "/pages/en/*"
-  to = "/pages/en/:splat"
+  to = "/:splat"
   status = 301
   force = true
 
   [[redirects]]
   from = "/pages/es/*"
-  to = "/pages/es/:splat"
+  to = "/:splat"
   status = 301
   force = true
