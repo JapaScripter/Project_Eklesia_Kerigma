@@ -8,13 +8,13 @@
   force = true
 
   [[redirects]]
-  from = "/pages/en/*.html"
+  from = "/pages/en/*"
   to = "/pages/en/:slug"
   status = 301
   force = true
 
   [[redirects]]
-  from = "/pages/es/*.html"
+  from = "/pages/es/*"
   to = "/pages/es/:slug"
   status = 301
   force = true
