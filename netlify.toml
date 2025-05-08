@@ -16,11 +16,11 @@
   [[redirects]]
   from = "/pages/en/*"
   to = "/pages/en/:splat.html"
-  status = 200
+  status = 301
   force = true
 
 [[redirects]]
   from = "/pages/es/*"
   to = "/pages/es/:splat.html"
-  status = 200
+  status = 301
   force = true
