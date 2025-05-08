@@ -8,10 +8,12 @@
   force = true
 
   [[redirects]]
-  from = "/pages/:splat"
+  from = "/pages/*"
   to = "/pages/:splat.html"
   status = 301
   force = true
+  # Apenas redireciona se a URL não terminar com `.html`
+  conditions = { "url" = "!/.html$" }
 
   [[redirects]]
   from = "/pages/en/*"
