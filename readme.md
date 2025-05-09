@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo.webp" alt="Logo da Eklesia Kerigma" width="200" style="border-radius: 100%;" />
+  <img src="assets/images/logos/logo.png" alt="Logo da Eklesia Kerigma" width="200" style="border-radius: 100%;" />
 </p>
 
 <h1 align="center">Site Eklesia Kerigma</h1>
