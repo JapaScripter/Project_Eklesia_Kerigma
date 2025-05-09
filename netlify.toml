@@ -2,19 +2,12 @@
   publish = "."
 
 [[redirects]]
-  from = "/*.html"
+  from = "/**.html"
   to = "/:splat"
   status = 301
   force = true
 
-  [[redirects]]
-  from = "/pages/en/*"
-  to = "/pages/en/:splat"
-  status = 301
-  force = true
-
-  [[redirects]]
-  from = "/pages/es/*"
-  to = "/pages/es/:splat"
-  status = 301
-  force = true
+  [[headers]]
+  for = "/*"
+  [headers.values]
+  X-Robots-Tag = "all"
